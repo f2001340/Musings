@@ -1,0 +1,32 @@
+#SOLID Design Principles
+
+#Purpose
+For Clean and Maintainable Code
+
+S - Single Responsibility Principle
+A class or module should should do only one thing. It should have only one reason to change.
+
+O - Open/Closed Principle
+Code entities should be Open for Extension but Closed for Modification. A class should be closed for modification but can be extended by, inheriting from it to override or extend behaviours.
+Eg: Extending a browsers functionality by adding extensions and plugins.
+Eg: Extending a smartphone functionality by being able to add new apps.
+
+L - Liskov Substitution principle
+We should be able to substitute a Parent Class with a Child Class and the code should still work fine.
+
+I - Interface Segregation Principle
+We should favor many smaller interfaces over one larger interface. Clients should not be forced to implement methods that they don't need. Clients should not be forced to be modified due to changes in methods that they don't use.
+
+D - Dependency Inversion Principle
+Write code that depends on Abstractions rather than upon Concrete details.
+
+#Other Design Principles
+
+DRY - Don't Repeat Yourself
+Repeated code should be encapsulated in a method.
+
+Inheritance vs Object Composition
+- When we inherit from a class, we are stuck with that class only. But when we use Composition, we can make use of polymorphism and use any implementation.
+- We can Inherit from only one class, but with Composition we can leverage functionalities of multiple classes.
+- When using Compsition, we can easily replace them with Mock objects for Unit testing, whereas its not possible with Inheritance.
+- Composition enables code reuse from Final Classes. As we cannot inherit from final classes.
