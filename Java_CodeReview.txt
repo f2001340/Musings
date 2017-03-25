@@ -1,0 +1,61 @@
+1. Classes should be small.
+
+2. Use meaningful names.
+
+3. Do one thing.
+
+4. Don't Repeat Yourself.
+
+5. Use Exceptions rather than Return codes.
+
+6. Don't return Null.
+
+7. Make class final if not being used for inheritance.
+
+8. Input into a system should be checked for valid data and range.
+
+9. Release streams (Resources, Connections) in all cases.
+
+10. Do not log Confidential information.
+
+11. Avoid Dynamic SQL, use PreparedStatement.
+
+12. Avoid Excessive Synchronization.
+
+13. Keep Synchronized sections small.
+
+14. Avoid creating unnecessary objects.
+
+15. Use Checked exceptions for Recoverable conditions and Runtime exceptions for programming errors.
+
+16. Don't ignore exceptions, handle them.
+
+17. In public classes, use accessor methods instead of public fields.
+
+18. Refer to Objects by their Interfaces.
+
+19. Always code to interfaces.
+
+20. Adhere to naming conventions.
+
+21. Always override hashCode while overriding equals.
+
+22. Use enums instead of int constants.
+
+23. SOLID Design Principles.
+
+24. KISS principle.
+
+25. Make object immutable when possible.
+
+26. Minimize the accessibility of packages, classes and their members.
+
+27. Use right Data types.
+
+28. Try to use proven frameworks or libraries instead of reinventing the wheel.
+
+29. 
+
+23. Synchronize access to shared mutable data.
+
+24. Prefer executors to threads.

@@ -30,3 +30,6 @@ Inheritance vs Object Composition
 - We can Inherit from only one class, but with Composition we can leverage functionalities of multiple classes.
 - When using Compsition, we can easily replace them with Mock objects for Unit testing, whereas its not possible with Inheritance.
 - Composition enables code reuse from Final Classes. As we cannot inherit from final classes.
+
+Always Code for Interfaces
+Always code for interfaces to enable Polymorphism.
